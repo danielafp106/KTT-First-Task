@@ -1,8 +1,8 @@
 var express = require("express");
 var path = require("path");
 var routes = require("./routes");
-
 var app = express();
+
 
 //Port
 app.set("port", process.env.PORT || 3000);

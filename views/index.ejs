@@ -1,3 +1,14 @@
 <%- include ('_header') -%>
-<h1>Holi</h1>
+
+
+<script>
+    mainContainer = document.getElementById("mainContainer");
+    pokemons = [];
+    pokemons = <%-pokemons%>;
+    pokemons.forEach(element => {
+        mainContainer.insertAdjacentHTML('beforeend',
+        '<div class="pokeContainer"><a class="pokeUrl" href="'+element.url+'">'+element.name.toUpperCase()+'</a></div>'
+        ) 
+    });
+</script>
 <%- include ('_footer') -%>
