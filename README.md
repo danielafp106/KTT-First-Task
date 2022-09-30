@@ -2,7 +2,7 @@
 This repository is the KTT Technical Knowledge Evaluation, and consists in a NodeJS application, where it has been used plain HTML and CSS. Also, it has a connection to the [PokeAPI](https://pokeapi.co/), by using a GET request that returns the Pokémon from #91 to #100.
 
 <p align="center">
-  <img src="https://github.com/danielafp106/danielafp106.github.io/blob/main/fresult.png?raw=true" alt="Final Result" width="600"/>
+  <img src="https://github.com/danielafp106/danielafp106.github.io/blob/main/Imagenes%20Varias/fresult.png?raw=true" alt="Final Result" width="600"/>
 </p>
 
 ## Technologies Used
